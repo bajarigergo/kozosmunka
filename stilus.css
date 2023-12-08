@@ -8,44 +8,75 @@
 /*hatter*/
 
 body {
-    width: 90%;
-    max-width: 1000px;
-    margin: auto;
-    background-color: blanchedalmond;
+  width: 90%;
+  max-width: 1000px;
+  margin: auto;
+  background-color: blanchedalmond;
 }
 
+/* oldal kialakítás nagy képernyőn*/
+main {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-template-areas:
+    "h h"
+    "a n"
+    "f f";
+}
+article {
+  grid-area: a;
+}
+nav {
+  grid-area: n;
+}
+footer {
+  grid-area: f;
+}
 /*navbar*/
 
 nav ul {
-    list-style-type: none;
-    padding: 0;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-  }
-  
+  list-style-type: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 10px;
+}
+
 nav a {
-    text-align: center;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-  }
-  
+  text-align: center;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+}
+
 nav li {
-    text-align: center;
-    border: 1px solid grey;
-    padding: 10px;
-    background-color: white;
-  }
+  text-align: center;
+  border: 1px solid grey;
+  padding: 10px;
+  background-color: white;
+}
 
 /* footer */
-footer{
-    background-color: rgb(blanchedalmond);
-    text-align: center;
+footer {
+  background-color: rgb(blanchedalmond);
+  text-align: center;
 }
 
 /* header */
-header{
-    text-align: center;
-    background-color: grey;
-    
+header {
+  text-align: center;
+  background-color: grey;
+}
+
+/* telefon nezet */
+
+@media only screen and (max-width: 600px) {
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "h"
+      "n"
+      "a"
+      "f";
+  }
 }

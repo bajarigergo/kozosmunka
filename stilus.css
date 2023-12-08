@@ -35,3 +35,9 @@ footer{
     background-color: rgb(blanchedalmond);
     text-align: center;
 }
+
+/* header */
+header{
+    text-align: center;
+    background-color: grey;
+}

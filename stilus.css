@@ -77,18 +77,24 @@ nav li {
   padding: 10px;
   background-color: #092635c9;
   border-radius: 10px;
+
+}
+
+
+img{
+  max-width: 150px;
 }
 
 /* telefon nezet */
 
 @media only screen and (max-width: 600px) {
-  main {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas:
-      "h"
-      "n"
-      "a"
-      "f";
-  }
+    main {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "h"
+        "n"
+        "a"
+        "f";
+    }
 }

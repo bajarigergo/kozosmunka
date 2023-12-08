@@ -34,6 +34,7 @@ header {
 }
 article {
   grid-area: a;
+  margin: auto;
 }
 nav {
   grid-area: n;
@@ -70,19 +71,27 @@ nav a {
   text-align: center;
   text-decoration: none;
   color: #9EC8B9;
+  display: inline-block;
+  width: 100%;
+  padding: 10px;
 }
 
 nav li {
   text-align: center;
-  padding: 10px;
   background-color: #092635c9;
+  border-radius: 10px;
+}
+
+nav li:hover {
+  text-align: center;
+  background-color: #092635af;
   border-radius: 10px;
 
 }
 
-
 img{
   max-width: 150px;
+  border: 1px solid #092635;
 }
 
 /* telefon nezet */
@@ -96,5 +105,8 @@ img{
         "n"
         "a"
         "f";
+    }
+    table {
+      
     }
 }

@@ -1,8 +1,9 @@
 /* mindenre */
 * {
   margin: 0;
-  padding: 0;
+  padding: 5px;
   box-sizing: border-box;
+  color: #9EC8B9;
 }
 
 /*hatter*/
@@ -11,7 +12,7 @@ body {
   width: 90%;
   max-width: 1000px;
   margin: auto;
-  background-color: blanchedalmond;
+  background-color: #1B4242;
 }
 
 /* oldal kialakítás nagy képernyőn*/
@@ -22,6 +23,14 @@ main {
     "h h"
     "a n"
     "f f";
+  background-color: #5C8374;
+}
+header {
+  grid-area: h;
+  width: 100%;
+  text-align: center;
+  background-color: #092635;
+  border-radius: 10px;
 }
 article {
   grid-area: a;
@@ -31,7 +40,22 @@ nav {
 }
 footer {
   grid-area: f;
+  width: 100%;
+  text-align: center;
+  background-color: #092635;
+  border-radius: 10px;
 }
+
+/* táblázat */
+table {
+  text-align: center;
+}
+th {
+  background-color: #092635cc;
+  border-radius: 10px;
+}
+
+
 /*navbar*/
 
 nav ul {
@@ -45,26 +69,14 @@ nav ul {
 nav a {
   text-align: center;
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #9EC8B9;
 }
 
 nav li {
   text-align: center;
-  border: 1px solid grey;
   padding: 10px;
-  background-color: white;
-}
-
-/* footer */
-footer {
-  background-color: rgb(blanchedalmond);
-  text-align: center;
-}
-
-/* header */
-header {
-  text-align: center;
-  background-color: grey;
+  background-color: #092635c9;
+  border-radius: 10px;
 }
 
 /* telefon nezet */

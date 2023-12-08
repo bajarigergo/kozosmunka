@@ -47,5 +47,9 @@ footer{
 header{
     text-align: center;
     background-color: grey;
-    
+
+}
+
+img{
+    max-width: 150px;
 }

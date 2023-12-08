@@ -1,3 +1,10 @@
+/* mindenre */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /*hatter*/
 
 body {
@@ -31,3 +38,14 @@ nav li {
   }
 
 /* footer */
+footer{
+    background-color: rgb(blanchedalmond);
+    text-align: center;
+}
+
+/* header */
+header{
+    text-align: center;
+    background-color: grey;
+    
+}

@@ -1,0 +1,31 @@
+/*hatter*/
+
+body {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    background-color: blanchedalmond;
+}
+
+/*navbar*/
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+  }
+  
+nav a {
+    text-align: center;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+  
+nav li {
+    text-align: center;
+    border: 1px solid grey;
+    padding: 10px;
+    background-color: white;
+  }
